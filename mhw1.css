@@ -1,0 +1,186 @@
+body{
+    margin: 0px;
+    text-align: left;
+    font-size: 20px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    height: 75px;
+}
+
+a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    text-align: center;
+}
+
+a:hover{
+background-color: white;
+color:black;
+padding:10px 20px;
+}
+
+header{
+    height: 500px;
+    display: flex;
+    background-image: url(https://www.pcclean.io/wp-content/uploads/2020/4/RRzmIb.jpg);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: -2;
+    position: relative;
+}
+
+#Title{
+    color: white;
+    font-style: bold;
+    font-family: 'Noto Serif', serif;
+    background-color: rgba(17, 16, 16, 0.395);
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#ProfilePic{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 2px solid black;
+    background-image: url(https://previews.dropbox.com/p/thumb/AB1AvMBmL8cBM-UWb8gyy8qoBsggwQrjdwIllk4vyo7mb7LSCUQ-ByH43rzLy56g_Dl8t8AgENyMWqPgBPJl9NJIobhWanPlUlV0plxAbTyLVyXcWphbK7S4pPmBVCe9HwrwxTUwz5kJSd7ELpnWxdkl8ooSd2bkXvkI3nuVHPgJ5o_pAgV1s35mfVeG3MeRw71exEmoRiFyIReH9gfHzwEIV5i_iaFPDt0eD4lnY-lzMlL0kEcKOUoXRsN4MsuDjSzVp6inAypgmr8dgFBUY4l1nn6Z56fle-agVsXfjrFec0mkBGsHFi0lbtynjjssjTr0MZp6d0-uie0L06DsT_omkAYlgxjLdAz-ft4VfiAeK0wBwPhRoojHOnAFXpz9nlA/p.jpeg);
+    background-size: cover;
+    margin-top: -50px;
+    text-align: center;
+}
+
+#name{
+    font-family: 'Noto Serif',serif;
+    text-align: center;
+}
+
+#access{
+    margin-bottom: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+.N1{
+    width: 66.67%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#SubTitle{
+    background-color: white;
+    color: black;
+    font-size: 2.5em;
+    margin-bottom: -5px;
+    position: relative;
+}
+
+#mark_intest{
+    font-family: 'Noto Serif',serif;
+    color:black;
+    font-size: 1.5em;
+}
+
+#red{
+    background-color: white;
+    color:red;
+    font-size: 1.5em;
+}
+
+.description{
+    font-size: 1em;
+}
+
+img{
+    width: 66.67%;
+    margin-bottom: 100px;
+}
+
+.N2{
+    position: absolute;
+    top: auto;
+    bottom: 0px;
+    left: -40px;
+    height: 100%;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+.N3{
+    position: absolute;
+    top: auto;
+    bottom: 0px;
+    left: -80px;
+    height: 100%;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 1em;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    height: 75px;
+    width: 100%;
+    color: white;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px){
+
+    #Title{
+        text-align: center;
+    }
+
+    .container{
+        justify-content: end;
+    }
+
+    .N2{
+        width: 0px;
+    }
+
+    .N3{
+        left: -50px;
+    }
+
+    body{
+        font-size: 15px;
+    }
+
+}
+
+#overlay {
+    background-color:
+      rgb(0, 0, 0,0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
